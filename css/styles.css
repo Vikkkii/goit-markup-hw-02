@@ -9,6 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -44,6 +45,11 @@ body {
   color: var(--accent-color);
 }
 
+.hide-title {
+  visibility: hidden; 
+}
+
+
 .list {
   list-style: none;
 }
@@ -62,7 +68,15 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: var(--dark-bg-text-color);
+  background-color: var(--accent-color);
+}
+
+.button-portfolio {
+font-weight: 500;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--title-color);
 }
 
 .page-title {
@@ -95,6 +109,19 @@ body {
   text-transform: uppercase;
   color: var(--title-color);
 }
+
+.title-projects-portfolio {
+  font-size: 18px;
+  line-height: 2.00;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  }
+
+  .project-placement {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  }
 
 .title-team {
   font-weight: 500;
