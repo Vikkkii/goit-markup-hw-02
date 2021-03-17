@@ -5,6 +5,8 @@
   --title-color: #212121;
   --dark-bg-color: #2f303a;
   --contacts-color: rgba(255, 255, 255, 0.6);
+  --bg-color: #f5f4fa;
+  --bg-portfo: #ffffff;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  background-color: var(--bg-portfo);
 }
 
 .nav {
@@ -27,7 +30,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: 0.03em;
 }
 
@@ -46,16 +49,15 @@ body {
 }
 
 .hide-title {
-  visibility: hidden; 
+  visibility: hidden;
 }
-
 
 .list {
   list-style: none;
 }
 
 .button {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -64,6 +66,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
+  background-color: var(--accent-color);
 }
 
 .button:hover,
@@ -73,10 +76,11 @@ body {
 }
 
 .button-portfolio {
-font-weight: 500;
-line-height: 1.62;
-letter-spacing: 0.03em;
-color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--bg-color);
 }
 
 .page-title {
@@ -89,21 +93,25 @@ color: var(--title-color);
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--title-color);
 }
 
+.bg-color-section {
+  background-color: var(--bg-color);
+}
+
 .list-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .title-label {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.42;
   text-transform: uppercase;
@@ -112,16 +120,16 @@ color: var(--title-color);
 
 .title-projects-portfolio {
   font-size: 18px;
-  line-height: 2.00;
+  line-height: 2;
   letter-spacing: 0.06em;
   text-transform: none;
-  }
+}
 
-  .project-placement {
-  font-weight: normal;
+.project-placement {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
-  }
+}
 
 .title-team {
   font-weight: 500;
@@ -134,12 +142,20 @@ color: var(--title-color);
   color: var(--title-color);
 }
 
+.profession-team {
+  font-weight: normal;
+}
+
 .header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+
+.header .current {
+  color: var(--accent-color);
 }
 
 .dark-bg {
